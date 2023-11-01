@@ -1,0 +1,307 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    padding: 0 8px;
+}
+li{
+    list-style: none;
+}
+html{
+    font-size: 16px;
+}
+/*header*/
+#header{
+    width: 101.5%;
+   
+    font-size: 1rem;
+   background-color:  #F1692F;
+   color: #fff;
+   padding: 10px 0;
+
+}
+.header-logo{
+    border-right: 1px solid #ccc;
+}
+#header a{
+    font-size: 1rem;
+}
+.header-left{
+    
+    display: flex;
+    align-items: center;
+   
+}
+.header-center{
+
+}
+.nav{
+
+}
+.header-right{
+   
+   display: flex;
+   justify-content: flex-end;
+  
+}
+.searcher-nav{
+    cursor: pointer;
+   padding-right: 5px;
+}
+.searcher-nav button{
+    margin-left: 5px;
+    background-color: #fff;
+    border: none;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+.menu-item{
+    display: none;
+    padding: 0 10px;
+    font-size: 2rem;
+}
+.header-center-sub{
+    display: none;
+}
+.close-nav{
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 20px;
+    padding: 10px;
+    color: #fff;
+    font-weight: 800;
+}
+.closee{
+    display: none;
+}
+.openn{
+    display: block;
+}
+/*banner*/
+#banner{
+  width: 100%;
+}
+.banner-img{
+    width: 100%;
+}
+.banner-img img{
+    width: 100%;
+}
+.img-banner1{
+    display: block;
+}
+.img-banner2{
+    display: none;
+}
+/*bai viet*/
+#baiviet{
+   padding: 20px 0;
+   display: flex;
+   justify-content: space-between;
+}
+.baiviet-left{
+    width: 31.7%;
+}
+.baiviet-left-td{
+
+}
+.baiviet-left h4{
+    position: relative;
+    color: #F1692F;
+}
+.baiviet-left h4::after{
+    content: "";
+    left: 0;
+    top: 30px;
+    width: 48%;
+    height: 4px;
+    position: absolute;
+    background-color: #F1692F;
+}
+.baiviet-left-box{
+
+}
+.box-content{
+    margin-top: 62px;
+    border-radius: 10px;
+     width: 100%;
+     height: 225px;
+     background-color: #F1692F;
+}
+.baiviet-left-phantrang{
+    margin-top:31px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+.baiviet-left-phantrang i{
+
+}
+.sotrang{
+   width: 17px;
+   height: 17px;
+   background-color:#D9D9D9;
+   border-radius: 50%;
+}
+.activept{
+    background-color:#F1692F ;
+}
+.baiviet-right{
+    width: 55%;
+}
+.baiviet-right-search{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.baiviet-right-search i{
+    padding: 5px;
+   width: 10%;
+}
+.baiviet-right-search input{
+    padding: 5px;
+    border: none;
+   width: 90%;
+   outline: none;
+}
+.baiviet-menu{
+    margin-top: 38px;
+    width: 100%;
+}
+.baiviet-menu ul{
+    display: flex;
+    width: 100%;
+}
+.baiviet-menu li{
+    padding: 0 5px;
+    text-align: center;
+    font-size: 24px;
+   color: #F1692F;
+   
+}
+.baiviet-menu li:not(:last-child){
+   
+    border-right: 1px solid #ccc;
+ }
+ .baiviet-right-content{
+   
+     width: 100%;
+ }
+ .right-box{
+    display: flex;
+    gap: 10px;
+    font-size: 16px;
+    margin-top: 25px;
+    width: 100%;
+    align-items: center;
+ }
+ .right-rt{
+    width: 42.7%;
+    background-color:  #D9D9D9;
+    height: 175px;
+    border-radius: 10px;
+ }
+ .right-content{
+    width: 56%;
+ }
+ .right-content h4{
+    color: #F1692F;
+ }
+ .right-content h4,
+ .right-content p{
+    line-height: 18.75px;
+    font-size: 16px;
+ }
+@media (max-width: 1280px) {
+    /*header*/
+    body{
+        width: 100%;
+    }
+    .header-center{
+        display: none;
+    }
+    .header-logo{
+        font-size: 1vw;
+    }
+    .menu-item{
+        display: block;
+    }
+    .header-left.col-1{
+        width: 48%;
+    }
+    #header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header-right{
+        width: 48%;
+    }
+    .header-center-sub{
+        padding-top: 20px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color:#F1692F ;
+       
+        
+        width: 100vw;
+        height: 100vh;
+    }
+    .nav-2{
+       
+       
+    }
+    .nav-2 li a{
+        padding: 15px 5px;
+    }
+    /*bai viet*/
+    #baiviet{
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column-reverse;
+     }
+     .baiviet-right{
+        padding: 30px;
+        width: 100%;
+    }
+    .baiviet-left{
+
+        background-color: #F2F0F0;
+        
+        padding: 30px 30px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px){
+    html{
+        width: 100%;
+    }
+    body{
+        width: 100%;
+    }
+    .img-banner1{
+        display: none;
+    }
+    .img-banner2{
+        display: block;
+    }
+    .baiviet-menu li{
+        font-size: 13px;
+    }
+    .right-content h4,
+ .right-content p{
+    line-height: 12px;
+    font-size: 10px;
+ }
+}
+

@@ -1,0 +1,286 @@
+/*swiper*/
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+#baiviet-block{
+    padding: 30px 0;
+    text-align: center;
+}
+.baiviet-right-search{
+  margin: 0 auto;
+    width: 60%;
+}
+.baiviet-menu{
+ display: flex;
+ justify-content: center;
+ font-size: 18px;
+}
+.baiviet-menu ul{
+    display: flex;
+    justify-content: center;
+}
+.baiviet-menu li{
+    font-size: 22px;
+}
+.thanhtieude{
+    padding: 10px;
+    background-color: #F0F0F0;
+    color: tomato !important;
+}
+.thanhtieude a , 
+.thanhtieude li{
+    color: tomato ;
+}
+.breadcrumb-item{
+    color: tomato;
+}
+
+#noidung-blockk{
+    padding: 0 30px;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+.noidung-block-left{
+   width: 55%;
+}
+.noidung-block-td{
+
+}
+.noidung-block-td h4{
+    color: tomato;
+    display: inline-block;
+    position: relative;
+}
+.noidung-block-td h4::after{
+    content: "";
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 20%;
+    height: 4px;
+    background-color: tomato;
+
+}
+.noidung-block-content{
+
+}
+.noidung-block-content p{
+    margin-top: 15px;
+}
+.noidung-block-left-boxmenu{
+    background-color: #F5F5F5;
+    box-shadow: 2px 2px 2px 2px #ccc;
+    padding: 10px;
+    margin-top: 10px;
+}
+.noidung-block-left-boxmenu-td h4{
+    color: tomato;
+}
+.noidung-block-left-boxmenu ul{
+    
+}
+.noidung-block-left-boxmenu li{
+    list-style: decimal;
+}
+.blog-box{
+    width: 100%;
+    height: 300px;
+    background-color: tomato;
+}
+.noidung-blovk-right{
+    width: 30%;
+}
+.right-box-block{
+    width: 200px;
+    height: 300px;
+    background-color: tomato;
+}
+.right-cackhoahoc{
+    margin-top: 30px;
+    width: 60%;
+}
+.right-cackhoahoc li{
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+.accordion-button{
+    color: tomato;
+}
+.accordion-button:active{
+    color: tomato;
+    background-color: #ccc;
+}
+.right-formdk{
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px #ccc;
+    display: flex;
+    justify-content: center;
+    counter-reset: #fff;
+    background-color: tomato;
+    margin-top: 20px;
+    padding: 15px;
+    width: 60%;
+}
+.right-formdk label{
+    color: #fff;
+}
+.right-formdk div{
+  padding: 10px 0;
+}
+.right-formdk input{
+    border: none;
+    padding: 3px 5px;
+    outline: none;
+}
+.right-formdk button{
+    padding: 5px 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
+.b1{
+    display: none;
+    
+}
+#cacbaivietlienquan{
+    
+    background-color: #F0F0F0;
+    padding: 30px 30px;
+}
+.cacbaivietlienquan-td{
+    display: flex;
+    justify-content: center;
+}
+.cacbaivietlienquan-td h4{
+   margin: 0 auto;
+    color: tomato;
+    display: inline-block;
+    position: relative;
+}
+.cacbaivietlienquan-td h4::after{
+    content: "";
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: tomato;
+
+}
+.baivietlienquan-content{
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.baivietlq-box-content{
+    width: 26%;
+}
+.baivietlq-box-lq{
+   width: 100%;
+   height: 200px;
+   background-color: tomato;
+   padding: 20px 0;
+}
+.baivietlq-box-text{
+   
+}
+.baivietlq-box-text h4{
+    padding: 20px 0 ;
+    color: tomato;
+}
+.baivietlq-box-text p{
+    position: relative;
+}
+.xemthem-lq::after{
+    content: "xem them";
+    color: tomato;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.swiper{
+    display: none;
+}
+@media (max-width: 1080px){
+    .b1{
+        display: block;
+        width: 100%;
+        margin: 10px 0px;
+     }
+     .p-none{
+        display: none;
+     }
+     #noidung-blockk{
+        padding: 20px;
+        flex-direction: column;
+     }
+     .noidung-block-left{
+          width: 100%;
+     }
+     .noidung-blovk-right{
+
+          width: 100%;
+     }
+     .lq-1{
+        display: none;
+     }
+     .swiper{
+        display: block;
+     }
+     .swiper .baivietlq-box-content{
+       
+        width: 100%;
+        padding: 10px;
+    }
+    .swiper .baivietlienquan-content{
+        margin-top: 30px;
+    }
+    
+    .baivietlq-box-lq{
+        margin-top: 20px;
+       
+        background-color: aqua;
+    }
+    .right-cackhoahoc{
+       display: none;
+    }
+    .right-formdk{
+         display: flex;
+         justify-content: center;
+        width: 100%;
+       
+    }
+    form{
+        width: 80%;
+    }
+    .cacbaivietlienquan-td h4{
+        margin-bottom: 40px;
+    }
+    .right-formdk input{
+        padding: 5px;
+        width: 100%;
+        
+    }
+    .noidung-block-td h4::after{
+        top: 60px;
+    }
+}
